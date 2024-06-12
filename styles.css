@@ -1,55 +1,82 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 .container {
   max-width: 800px;
-  margin: auto;
-}
-
-.text-center {
-  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .header {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .header p {
-  margin-bottom: 5px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header a {
-  margin: 0 5px;
+  text-decoration: none;
+  color: #007bff;
 }
 
 hr {
+  border: none;
+  border-top: 1px solid #eee;
   margin: 20px 0;
 }
 
-.experience-item {
+section {
   margin-bottom: 20px;
 }
 
-.job-title {
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 15px;
+}
+
+.job-title,
+.education-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 400;
 }
-.job-title em{
-  font-weight: normal;
-}
-.job-title .date {
-  font-weight: normal;
+
+.date {
+  font-size: 14px;
+  font-weight: 400;
   color: #666;
 }
 
-.experience-details {
+.experience-details,
+.skills {
   padding-left: 20px;
   list-style-type: disc;
+}
+
+.skills {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.skills li {
+  margin-bottom: 10px;
 }
