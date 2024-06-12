@@ -41,7 +41,9 @@ hr {
   align-items: center;
   font-weight: bold;
 }
-
+.job-title em{
+  font-weight: normal;
+}
 .job-title .date {
   font-weight: normal;
   color: #666;
