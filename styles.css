@@ -1,23 +1,53 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #343a40;
 }
 
-h1,
-h2 {
-  color: black;
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header p {
+  margin-bottom: 5px;
+}
+
+.header a {
+  margin: 0 5px;
 }
 
 hr {
-  border-top: 1px solid grey;
+  margin: 20px 0;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
+.experience-item {
+  margin-bottom: 20px;
 }
 
-li {
-  margin-bottom: 10px;
+.job-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.job-title .date {
+  font-weight: normal;
+  color: #666;
+}
+
+.experience-details {
+  padding-left: 20px;
+  list-style-type: disc;
 }

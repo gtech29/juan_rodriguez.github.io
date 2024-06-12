@@ -1,100 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resume</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
+  <body>
+    <div class="container mt-5">
+      <div class="header text-center">
+        <h1>Juan Rodriguez</h1>
+        <p>Computer Science Student | California State University Northridge</p>
+        <p>
+          <a href="mailto:webmaster@example.com"> Email </a> |
+          <a href="#">GitHub</a> |
+          <a href="#">LinkedIn</a> |
+          <a href="#">PDF Resume</a>
+        </p>
+      </div>
 
-<body>
-  <div class="container mt-5">
-    <div class="text-center">
-      <h1>Juan Rodriguez</h1>
-      <p>Computer Science Student | California State University Northridge</p>
-      <p><a href="mailto:webmaster@example.com"> Email </a> | <a href="#">GitHub</a> | <a href="#">LinkedIn | <a
-            href="#">PDF Resume</a></a></p>
-    </div>
+      <hr />
 
-    <hr />
-
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <strong>California State University - Northridge</strong> - Research
-          Assistant (Summer 2024)
-          <ul>
+      <section>
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <div class="job-title">
+            <div>California State University - Northridge - Research Assistant</div>
+            <div class="date">May 2024 - August 2024</div>
+          </div>
+          <ul class="experience-details">
             <li>
-              &#x2022; Developed and applied Physics-Informed Neural Networks
+              Developed and applied Physics-Informed Neural Networks
               using PyTorch, improving predictive modeling accuracy for
               real-world problems.
             </li>
             <li>
-              &#x2022; Utilized machine learning methodologies to model
+              Utilized machine learning methodologies to model
               complex scenarios and generate accurate predictions.
             </li>
             <li>
-              &#x2022; Enhanced proficiency in Python and deep learning
+              Enhanced proficiency in Python and deep learning
               techniques.
             </li>
           </ul>
-        </li>
-        <li>
-          <strong>Research Project</strong> - Solving Physics Equations with
-          Neural Networks (Current)
-          <ul>
-            <li>Implemented neural network models using PyTorch</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <hr />
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>Coding School for Kids</strong> - Business Idea
-          <ul>
-            <li>
-              Designed curriculum and teaching materials for coding classes
-              for kids
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    <hr />
-
-
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>California State University Northridge</strong> - B.S. in
-          Computer Science (Expected Fall 2025)
-          <ul>
-            <li>Relevant Courses: Assembly Language, Data Structures</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-
-    <hr />
-
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Programming Languages: C++, Python, Java</li>
-        <li>Libraries and Frameworks: PyTorch, Pandas, Scikit-learn</li>
-        <li>Tools: VS Code, Git</li>
-      </ul>
-    </section>
-  </div>
-</body>
-
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
